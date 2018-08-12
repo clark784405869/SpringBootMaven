@@ -26,7 +26,7 @@ public class GlobalDefaultExceptionHandler {
 //      mav.setViewName(DEFAULT_ERROR_VIEW);
 //      return mav;
       
-      //打印异常信息：
+       //打印异常信息：
        e.printStackTrace();
        System.out.println("GlobalDefaultExceptionHandler.defaultErrorHandler()");
  

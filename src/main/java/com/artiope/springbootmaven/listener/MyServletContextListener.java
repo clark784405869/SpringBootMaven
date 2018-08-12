@@ -7,7 +7,7 @@ import javax.servlet.annotation.WebListener;
 /**
  * 使用@WebListener注解，实现ServletContextListener接口
  *
- * @author Angel
+ * @author zhangpeng
  * @version v.0.1
  */
 @WebListener

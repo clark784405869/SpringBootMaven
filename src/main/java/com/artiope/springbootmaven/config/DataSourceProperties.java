@@ -13,7 +13,7 @@ public class DataSourceProperties {
 	    private String uri = "mongodb://localhost/test";
 	    private String database;
 	    private String type="com.alibaba.druid.pool.DruidDataSource";
-	    private String driverClassName="com.mysql.jdbc.Driver111";
+	    private String driverClassName="com.mysql.jdbc.Driver";
 	    private String url;
 	    private String username;
 	    private String password;

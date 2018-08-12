@@ -14,8 +14,8 @@ import com.artiope.springbootmaven.service.UserService;
 @Service
 public class UserServiceImpl implements UserService{
 	
-	 @Resource
-	    private UserRepository userRepository;
+	@Resource
+	private UserRepository userRepository;
 
 	@Override
 	public List<User> findByName(String name) {

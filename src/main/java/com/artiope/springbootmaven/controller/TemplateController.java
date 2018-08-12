@@ -29,7 +29,7 @@ import org.springframework.web.multipart.MultipartHttpServletRequest;
 @Controller
 public class TemplateController {
 	  // 从 application.properties 中读取配置，如取不到默认值为Hello Shanhy
-    @Value("${application.hello:Hello Angel}")
+    @Value("${application.hello:Hello zhangpeng}")
     private String hello;
    
     /**

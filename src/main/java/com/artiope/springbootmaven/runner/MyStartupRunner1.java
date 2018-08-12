@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 /**
  * 服务初始化完成，服务启动前，可以用于执行加载数据等服务启动前服务提供者自定义的预处理操作
  *
- * @author   Angel
+ * @author   zhangpeng
  */
 @Component
 //@Order(value=2)

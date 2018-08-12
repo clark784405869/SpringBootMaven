@@ -37,7 +37,7 @@ public class DemoController {
     public Demo getDemo(){
        Demo demo = new Demo();
        demo.setId(1);
-       demo.setName("Angel");
+       demo.setName("zhangpeng");
        logger.info(demo.getId()+":"+demo.getName()+":"+demo.getRemark());
        return demo;
     }
@@ -49,7 +49,7 @@ public class DemoController {
     @RequestMapping("/save")
     public String save(){
        Demo d = new Demo();
-       d.setName("AngelBaby");
+       d.setName("zhangpengBaby");
        d.setRemark("测试666");
        demoService.save(d);//保存数据.
        return"ok.Demo2Controller.save";

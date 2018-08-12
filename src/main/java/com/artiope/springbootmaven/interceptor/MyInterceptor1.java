@@ -9,7 +9,7 @@ import org.springframework.web.servlet.ModelAndView;
 /**
  * 自定义拦截器1
  *
- * @author   Angel
+ * @author   zhangpeng
  */
 public class MyInterceptor1 implements HandlerInterceptor {
  
