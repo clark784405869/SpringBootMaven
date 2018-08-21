@@ -15,7 +15,7 @@
      `JacksonUtil`:json处理工具类
      `DateUtil`：常见日期格处理工具类
      `SpringUtil`：手工获取调用Spring bean对象的工具类
-##2、整合阿里druid数据库连接池：
+## 2、整合阿里druid数据库连接池：
       Druid 是目前比较流行的高性能的，分布式列存储的OLAP框架(具体来说是MOLAP)。它有如下几个特点：
       - 亚秒级查询
            druid提供了快速的聚合能力以及亚秒级的OLAP查询能力，多租户的设计，是面向用户分析应用的理想方式。
@@ -60,24 +60,21 @@
  
 ## 8、Actuator健康检查:
 Spring Boot 的 Actuator 提供了很多生产级的特性，比如监控和度量Spring Boot 应用程序。Actuator 的这些特性可以通过众多 REST 接口、远程 shell 和 JMX 获得。
-
-- 8.1、Actuator 的 REST 接口
-    Spring Boot Actuator 的关键特性是在应用程序里提供众多 Web 接口，通过它们了解应用程序运行时的内部状况。Actuator 提供了 13 个接口，可以分为三大类：配置接口、度量接口和其它接口，具体如下表所示。
-
-- 8.2  HTTP 方法	路径	描述
-    GET	/autoconfig	提供了一份自动配置报告，记录哪些自动配置条件通过了，哪些没通过
-    GET	/configprops	描述配置属性(包含默认值)如何注入Bean
-    GET	/beans	描述应用程序上下文里全部的Bean，以及它们的关系
-    GET	/dump	获取线程活动的快照
-    GET	/env	获取全部环境属性
-    GET	/env/{name}	根据名称获取特定的环境属性值
-    GET	/health	报告应用程序的健康指标，这些值由HealthIndicator的实现类提供
-    GET	/info	获取应用程序的定制信息，这些信息由info打头的属性提供
-    GET	/mappings	描述全部的URI路径，以及它们和控制器(包含Actuator端点)的映射关系
-    GET	/metrics	报告各种应用程序度量信息，比如内存用量和HTTP请求计数
-    GET	/metrics/{name}	报告指定名称的应用程序度量值
-    POST	/shutdown	关闭应用程序，要求endpoints.shutdown.enabled设置为true
-    GET	/trace	提供基本的HTTP请求跟踪信息(时间戳、HTTP头等)
+   Actuator 提供了 13 个接口，可以分为三大类：配置接口、度量接口和其它接口，具体如下表所示。
+  
+    * GET	/autoconfig	提供了一份自动配置报告，记录哪些自动配置条件通过了，哪些没通过
+    * GET	/configprops	描述配置属性(包含默认值)如何注入Bean
+    * GET	/beans	描述应用程序上下文里全部的Bean，以及它们的关系
+    * GET	/dump	获取线程活动的快照
+    * GET	/env	获取全部环境属性
+    * GET	/env/{name}	根据名称获取特定的环境属性值
+    * GET	/health	报告应用程序的健康指标，这些值由HealthIndicator的实现类提供
+    * GET	/info	获取应用程序的定制信息，这些信息由info打头的属性提供
+    * GET	/mappings	描述全部的URI路径，以及它们和控制器(包含Actuator端点)的映射关系
+    * GET	/metrics	报告各种应用程序度量信息，比如内存用量和HTTP请求计数
+    * GET	/metrics/{name}	报告指定名称的应用程序度量值
+    * POST	/shutdown	关闭应用程序，要求endpoints.shutdown.enabled设置为true
+    * GET	/trace	提供基本的HTTP请求跟踪信息(时间戳、HTTP头等)
 ## 9、集成Spring-boot-starter-data-jpa：
     Spring-boot-starter-data-jpa 是Spring Data系列的一部分，可以轻松实现基于JPA的数据持久化操作，旨在通过提供通用接口减少持久层的编码量，提高代码质量，降低代码和SQL的维护成本，避免SQL注入等安全风险。作为开发人员只需编写Repostitory接口，Spring将自动提供实现数据库读写
    相关依赖：
