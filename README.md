@@ -27,13 +27,14 @@
            druid既可以运行在商业的硬件上，也可以运行在云上。它可以从多种数据系统中注入数据，包括hadoop，spark，kafka，storm和samza等
       - 丰富的社区
            druid拥有丰富的社区，供大家学习。
-      - 相关依赖：
+      ** 相关依赖：**
+      
      ```shell
-             <dependency>
-		    <groupId>com.alibaba</groupId>
-		    <artifactId>druid</artifactId>
-		    <version>${druid.version}</version>
-	    </dependency>
+          <dependency>
+		<groupId>com.alibaba</groupId>
+		<artifactId>druid</artifactId>
+		<version>1.0.18</version>
+	  </dependency>
       ```
       
 ## 3、分库分表:
