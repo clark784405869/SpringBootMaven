@@ -2,19 +2,19 @@
 本项目为使用Maven构建SpringBoot微服务系列教程的的顶级项目源码，后续将根据教程安排拆分为不同的子项目，欢迎下载学习，
 
 ## 1、项目基础代码功能：
-   - 基础Package结构：
+   * 基础Package结构：
     
-   - 基础代码：基本MVC结构
+   * 基础代码：基本MVC结构
      控制层：标准Restful API 及创建分页查询 API
      服务层：标准Service层接口及实现类模式，AOP日志管理及注解式事务管理
      视图层：目前支持Freemarker及Thymeleaf两种模板引擎，后续将引入AugularJs，并进行分版，提供多种前端支持
      持久化层：支持两种形式的jpa，提供基础Repostitory层代码实现
-   - 基础配置：
+   * 基础配置：
      
-   - 基础工具类：
-     `JacksonUtil`:json处理工具类
-     `DateUtil`：常见日期格处理工具类
-     `SpringUtil`：手工获取调用Spring bean对象的工具类
+   * 基础工具类：
+     - `JacksonUtil`:json处理工具类
+     - `DateUtil`：常见日期格处理工具类
+     - `SpringUtil`：手工获取调用Spring bean对象的工具类
 ## 2、整合阿里druid数据库连接池：
       Druid 是目前比较流行的高性能的，分布式列存储的OLAP框架(具体来说是MOLAP)。它有如下几个特点：
       - 亚秒级查询
