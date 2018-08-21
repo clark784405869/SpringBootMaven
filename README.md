@@ -1,5 +1,6 @@
 # SpringBootMaven
 本项目为使用Maven构建SpringBoot微服务系列教程的的顶级项目源码，后续将根据教程安排拆分为不同的子项目，欢迎下载学习，
+有问题欢迎加入QQ技术群(SpringBoot&Docker)：221075973 
 
 ## 1、项目基础代码功能：
    * 基础Package结构：
